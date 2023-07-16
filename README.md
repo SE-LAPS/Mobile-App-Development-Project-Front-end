@@ -1,4 +1,4 @@
-# Mobile-App-Development-Project-Front-end
+# Mobile-App-Development-Project-Front-end 🔰📲👩‍🎓
 Mobile App Development Project Front-end Using Flutter
 <br>
 ![F-1](https://github.com/SE-LAPS/Mobile-App-Development-Project-Front-end/assets/87580847/a819aa44-8885-4e87-91b8-603852c1418b)
