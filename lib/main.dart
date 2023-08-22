@@ -25,8 +25,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        textTheme: GoogleFonts.urbanistTextTheme(),
+      textTheme: GoogleFonts.urbanistTextTheme(),
         
+      
         primarySwatch: Colors.blue,
       ),
       home: StreamBuilder(

@@ -16,16 +16,11 @@ class WelcomeScreen extends StatelessWidget {
         height: MediaQuery.of(context).size.height,
         width: double.infinity,
         decoration: const BoxDecoration(
-            image: DecorationImage(image: AssetImage("assets/background.png"))),
+            image: DecorationImage(image: AssetImage("assets/background1.png"))),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
-            const SizedBox(
-              height: 130,
-              width: 180,
-              child: Image(
-                  image: AssetImage("assets/logo.png"), fit: BoxFit.cover),
-            ),
+            
             const SizedBox(height: 40),
             CustomizedButton(
               buttonText: "Login",
