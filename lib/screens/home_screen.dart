@@ -1,9 +1,14 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 //import 'package:Dine Delish App/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
+//import 'package:food_app/screens/welcome_screen.dart';
 
-import '../widgets/HomeNavBar.dart';
-import '../widgets/items_widget.dart';
+import '../widgets/AppBarWidget.dart';
+import '../widgets/CategoriesWidget.dart';
+import '../widgets/DrawerWidget.dart';
+import '../widgets/NewestItemsWidget.dart';
+import '../widgets/PopularItemsWidget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -14,93 +19,119 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   final String? userName = FirebaseAuth.instance.currentUser?.displayName;
-   @override
+ @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 4,
-      child: Scaffold(
-        backgroundColor:const Color(0xFF232227),
-        body: SafeArea(
-          child: Padding(
-            padding:const EdgeInsets.only(top: 25),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(
-                  padding:const EdgeInsets.symmetric(horizontal: 15),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      InkWell(
-                        onTap: () {},
-                        child:const  Icon(
-                          Icons.sort_rounded,
-                          color: Colors.white,
-                          size: 35,
+    return Scaffold(
+      body: ListView(
+        children: [
+          AppBarWidget(),
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              vertical: 10,
+              horizontal: 15,
+            ),
+            child: Container(
+              width: double.infinity,
+              height: 50,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 2,
+                      blurRadius: 10,
+                      offset: const Offset(0, 3),
+                    )
+                  ]),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 10,
+                ),
+                child: Row(
+                  children: [
+                    const Icon(
+                      CupertinoIcons.search,
+                      color: Colors.red,
+                    ),
+                    Container(
+                      height: 50,
+                      width: 300,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 15,
+                        ),
+                        child: TextFormField(
+                          decoration: const InputDecoration(
+                            hintText: "What would you like to have?",
+                            border: InputBorder.none,
+                          ),
                         ),
                       ),
-                      InkWell(
-                        onTap: () {},
-                        child:const  Icon(
-                          Icons.search,
-                          color: Colors.white,
-                          size: 35,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: 30),
-                const Padding (
-                  padding: EdgeInsets.symmetric(horizontal: 15),
-                  child: Text(
-                    "NSBM Food Court",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
                     ),
-                  ),
-                ),
-                const SizedBox(height: 5),
-                const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 15),
-                  child: Text(
-                    "Hot & Fast Food",
-                    style: TextStyle(
-                      color: Colors.white60,
-                      fontSize: 22,
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 30),
-                const TabBar(
-                  isScrollable: true,
-                  labelStyle: TextStyle(fontSize: 20),
-                  labelPadding: EdgeInsets.symmetric(horizontal: 20),
-                  tabs: [
-                    Tab(text: "All Items"),
-                    Tab(text: "Food"),
-                    Tab(text: "Beverage"),
-                    Tab(text: "Cake"),
+                    const Icon(Icons.filter_list),
                   ],
                 ),
-                const Flexible (
-                  flex: 1,
-                  child: TabBarView(
-                    children: [
-                      ItemsWidget(),
-                      ItemsWidget(),
-                      ItemsWidget(),
-                      ItemsWidget(),
-                    ],
-                  ),
-                ),
-              ],
+              ),
             ),
           ),
+          const Padding(
+            padding: EdgeInsets.only(top: 20, left: 10),
+            child: Text(
+              "Categories",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
+            ),
+          ),
+          CategoriesWidget(),
+          const Padding(
+            padding: EdgeInsets.only(top: 20, left: 10),
+            child: Text(
+              "Popular",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
+            ),
+          ),
+          PopularItemsWidget(),
+          const Padding(
+            padding: EdgeInsets.only(top: 20, left: 10),
+            child: Text(
+              "Newest",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+              ),
+            ),
+          ),
+          NewestItemsWidget(),
+        ],
+      ),
+      drawer: DrawerWidget(),
+      floatingActionButton: Container(
+        decoration:
+            BoxDecoration(borderRadius: BorderRadius.circular(20), boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.5),
+            spreadRadius: 2,
+            blurRadius: 10,
+            offset: const Offset(0, 3),
+          )
+        ]),
+        child: FloatingActionButton(
+          onPressed: () {
+            Navigator.pushNamed(context, "cartPage");
+          },
+          child: Icon(
+            CupertinoIcons.cart,
+            size: 28,
+            color: Colors.black,
+          ),
+          backgroundColor: Colors.white,
         ),
-        bottomNavigationBar: const HomeNavBar(),
       ),
     );
   }

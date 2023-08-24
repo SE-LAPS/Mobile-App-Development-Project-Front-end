@@ -5,6 +5,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app/firebase_options.dart';
+import 'package:food_app/screens/CartPage.dart';
+import 'package:food_app/screens/ItemPage.dart';
 import 'package:food_app/screens/home_screen.dart';
 import 'package:food_app/screens/welcome_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -22,25 +24,29 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: ThemeData(
-      textTheme: GoogleFonts.urbanistTextTheme(),
-        
-      
-        primarySwatch: Colors.blue,
-      ),
-      home: StreamBuilder(
-        stream: FirebaseAuth.instance.authStateChanges(),
-        builder: (context, snapshot) {
-          if (snapshot.hasData) {
-            return const HomeScreen();
-          } else {
-            return const WelcomeScreen();
-          }
-        },
-      ),
-    );
+  debugShowCheckedModeBanner: false,
+  title: 'Flutter Demo',
+  theme: ThemeData(
+    textTheme: GoogleFonts.urbanistTextTheme(),
+    primarySwatch: Colors.blue,
+  ),
+  initialRoute: "/", // You can set the initial route here if needed
+  routes: {
+    "/": (context) => StreamBuilder(
+      stream: FirebaseAuth.instance.authStateChanges(),
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
+          return const HomeScreen();
+        } else {
+          return const WelcomeScreen();
+        }
+      },
+    ),
+    "cartPage": (context) => const CartPage(),
+    "ItemPage": (context) => const ItemPage(),
+  },
+);
+
   }
 }
 
