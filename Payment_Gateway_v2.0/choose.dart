@@ -13,24 +13,42 @@ class _PaymentSelectionPageState extends State<PaymentSelectionPage> {
 
   void _showFormDialog() {
     if (selectedOption == 'Cash') {
-      showDialog(
+      showModalBottomSheet(
         context: context,
+        isScrollControlled: true,
         builder: (BuildContext context) {
-          return CashFormDialog();
+          return Container(
+            padding: EdgeInsets.only(
+              bottom: MediaQuery.of(context).viewInsets.bottom,
+            ),
+            child: CashCardForm(),
+          );
         },
       );
     } else if (selectedOption == 'Credit Card') {
-      showDialog(
+      showModalBottomSheet(
         context: context,
+        isScrollControlled: true,
         builder: (BuildContext context) {
-          return CreditCardFormDialog();
+          return Container(
+            padding: EdgeInsets.only(
+              bottom: MediaQuery.of(context).viewInsets.bottom,
+            ),
+            child: CreditCardForm(),
+          );
         },
       );
     } else if (selectedOption == 'Debit Card') {
-      showDialog(
+      showModalBottomSheet(
         context: context,
+        isScrollControlled: true,
         builder: (BuildContext context) {
-          return DebitCardFormDialog();
+          return Container(
+            padding: EdgeInsets.only(
+              bottom: MediaQuery.of(context).viewInsets.bottom,
+            ),
+            child: DebitCardForm(),
+          );
         },
       );
     }
@@ -43,11 +61,12 @@ class _PaymentSelectionPageState extends State<PaymentSelectionPage> {
         title: Text('Payment Gateway App'),
       ),
       body: Center(
-        child: Column(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             PaymentOptionWidget(
               option: 'Cash',
+              icon: Icons.account_balance_wallet,
               onOptionSelected: (option) {
                 setState(() {
                   selectedOption = option;
@@ -56,6 +75,7 @@ class _PaymentSelectionPageState extends State<PaymentSelectionPage> {
             ),
             PaymentOptionWidget(
               option: 'Credit Card',
+              icon: Icons.credit_card,
               onOptionSelected: (option) {
                 setState(() {
                   selectedOption = option;
@@ -64,6 +84,7 @@ class _PaymentSelectionPageState extends State<PaymentSelectionPage> {
             ),
             PaymentOptionWidget(
               option: 'Debit Card',
+              icon: Icons.savings,
               onOptionSelected: (option) {
                 setState(() {
                   selectedOption = option;
@@ -87,10 +108,12 @@ class _PaymentSelectionPageState extends State<PaymentSelectionPage> {
 
 class PaymentOptionWidget extends StatelessWidget {
   final String option;
+  final IconData icon;
   final Function(String) onOptionSelected;
 
   PaymentOptionWidget({
     required this.option,
+    required this.icon,
     required this.onOptionSelected,
   });
 
@@ -102,7 +125,7 @@ class PaymentOptionWidget extends StatelessWidget {
       },
       child: Column(
         children: [
-          Icon(Icons.payment, size: 50),
+          Icon(icon, size: 50),
           SizedBox(height: 10),
           Text(option),
         ],
