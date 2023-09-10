@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'choose.dart';
+import 'shopping_payment.dart'; // Import the new Dart file
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PaymentSelectionPage(),
+      home: ShoppingPaymentPage(), // Navigate to the new page
     );
   }
 }
