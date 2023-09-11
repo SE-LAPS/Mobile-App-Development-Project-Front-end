@@ -7,15 +7,15 @@ class NewestItemsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+        padding:const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
         child: Column(
           children: [
             //for (int i = 0; i < 4; i++)
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               child: Column(children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: 10),
+                  padding: const EdgeInsets.symmetric(vertical: 10),
                   child: Container(
                     width: 380,
                     height: 150,
@@ -27,7 +27,7 @@ class NewestItemsWidget extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.5),
                           spreadRadius: 3,
                           blurRadius: 10,
-                          offset: Offset(0, 3),
+                          offset: const Offset(0, 3),
                         ),
                       ],
                     ),
@@ -52,14 +52,14 @@ class NewestItemsWidget extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              Text(
+                              const Text(
                                 "Hot Pizza",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              Text(
+                              const Text(
                                 "Taste Our Hot Pizza, we Provide Our Greate Foods",
                                 style: TextStyle(
                                   fontSize: 16,
@@ -73,14 +73,14 @@ class NewestItemsWidget extends StatelessWidget {
                                 itemCount: 5,
                                 itemSize: 18,
                                 itemPadding:
-                                    EdgeInsets.symmetric(horizontal: 4),
-                                itemBuilder: (context, _) => Icon(
+                                    const EdgeInsets.symmetric(horizontal: 4),
+                                itemBuilder: (context, _) => const Icon(
                                   Icons.star,
                                   color: Colors.red,
                                 ),
                                 onRatingUpdate: (index) {},
                               ),
-                              Text(
+                              const Text(
                                 "Rs:400.00",
                                 style: TextStyle(
                                   fontSize: 20,
@@ -91,7 +91,7 @@ class NewestItemsWidget extends StatelessWidget {
                             ],
                           ),
                         ),
-                        Padding(
+                        const Padding(
                           padding: EdgeInsets.symmetric(vertical: 10),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -117,10 +117,10 @@ class NewestItemsWidget extends StatelessWidget {
             ),
 
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               child: Column(children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: 10),
+                  padding: const EdgeInsets.symmetric(vertical: 10),
                   child: Container(
                     width: 380,
                     height: 150,
@@ -132,7 +132,7 @@ class NewestItemsWidget extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.5),
                           spreadRadius: 3,
                           blurRadius: 10,
-                          offset: Offset(0, 3),
+                          offset: const Offset(0, 3),
                         ),
                       ],
                     ),
@@ -155,14 +155,14 @@ class NewestItemsWidget extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              Text(
+                              const Text(
                                 "Hot Pizza",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              Text(
+                              const Text(
                                 "Taste Our Hot Pizza, we Provide Our Greate Foods",
                                 style: TextStyle(
                                   fontSize: 16,
@@ -176,14 +176,14 @@ class NewestItemsWidget extends StatelessWidget {
                                 itemCount: 5,
                                 itemSize: 18,
                                 itemPadding:
-                                    EdgeInsets.symmetric(horizontal: 4),
-                                itemBuilder: (context, _) => Icon(
+                                    const EdgeInsets.symmetric(horizontal: 4),
+                                itemBuilder: (context, _) => const Icon(
                                   Icons.star,
                                   color: Colors.red,
                                 ),
                                 onRatingUpdate: (index) {},
                               ),
-                              Text(
+                              const Text(
                                 "Rs:400.00",
                                 style: TextStyle(
                                   fontSize: 20,
@@ -194,7 +194,7 @@ class NewestItemsWidget extends StatelessWidget {
                             ],
                           ),
                         ),
-                        Padding(
+                        const Padding(
                           padding: EdgeInsets.symmetric(vertical: 10),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -220,10 +220,10 @@ class NewestItemsWidget extends StatelessWidget {
             ),
 
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               child: Column(children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: 10),
+                  padding: const EdgeInsets.symmetric(vertical: 10),
                   child: Container(
                     width: 380,
                     height: 150,
@@ -235,7 +235,7 @@ class NewestItemsWidget extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.5),
                           spreadRadius: 3,
                           blurRadius: 10,
-                          offset: Offset(0, 3),
+                          offset: const Offset(0, 3),
                         ),
                       ],
                     ),
@@ -258,14 +258,14 @@ class NewestItemsWidget extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              Text(
+                              const Text(
                                 "Hot Pizza",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              Text(
+                              const Text(
                                 "Taste Our Hot Pizza, we Provide Our Greate Foods",
                                 style: TextStyle(
                                   fontSize: 16,
@@ -279,14 +279,14 @@ class NewestItemsWidget extends StatelessWidget {
                                 itemCount: 5,
                                 itemSize: 18,
                                 itemPadding:
-                                    EdgeInsets.symmetric(horizontal: 4),
-                                itemBuilder: (context, _) => Icon(
+                                    const EdgeInsets.symmetric(horizontal: 4),
+                                itemBuilder: (context, _) => const Icon(
                                   Icons.star,
                                   color: Colors.red,
                                 ),
                                 onRatingUpdate: (index) {},
                               ),
-                              Text(
+                              const Text(
                                 "Rs:400.00",
                                 style: TextStyle(
                                   fontSize: 20,
@@ -297,7 +297,7 @@ class NewestItemsWidget extends StatelessWidget {
                             ],
                           ),
                         ),
-                        Padding(
+                        const Padding(
                           padding: EdgeInsets.symmetric(vertical: 10),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -323,10 +323,10 @@ class NewestItemsWidget extends StatelessWidget {
             ),
 
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+              padding: const  EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               child: Column(children: [
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: 10),
+                  padding: const EdgeInsets.symmetric(vertical: 10),
                   child: Container(
                     width: 380,
                     height: 150,
@@ -338,7 +338,7 @@ class NewestItemsWidget extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.5),
                           spreadRadius: 3,
                           blurRadius: 10,
-                          offset: Offset(0, 3),
+                          offset: const Offset(0, 3),
                         ),
                       ],
                     ),
@@ -361,14 +361,14 @@ class NewestItemsWidget extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              Text(
+                              const Text(
                                 "Hot Pizza",
                                 style: TextStyle(
                                   fontSize: 22,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              Text(
+                              const Text(
                                 "Taste Our Hot Pizza, we Provide Our Greate Foods",
                                 style: TextStyle(
                                   fontSize: 16,
@@ -382,14 +382,14 @@ class NewestItemsWidget extends StatelessWidget {
                                 itemCount: 5,
                                 itemSize: 18,
                                 itemPadding:
-                                    EdgeInsets.symmetric(horizontal: 4),
-                                itemBuilder: (context, _) => Icon(
+                                    const EdgeInsets.symmetric(horizontal: 4),
+                                itemBuilder: (context, _) => const Icon(
                                   Icons.star,
                                   color: Colors.red,
                                 ),
                                 onRatingUpdate: (index) {},
                               ),
-                              Text(
+                              const Text(
                                 "Rs:400.00",
                                 style: TextStyle(
                                   fontSize: 20,
@@ -400,7 +400,7 @@ class NewestItemsWidget extends StatelessWidget {
                             ],
                           ),
                         ),
-                        Padding(
+                        const Padding(
                           padding: EdgeInsets.symmetric(vertical: 10),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,

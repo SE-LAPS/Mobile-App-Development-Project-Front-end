@@ -11,6 +11,8 @@ import 'package:food_app/screens/home_screen.dart';
 import 'package:food_app/screens/welcome_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+//import 'package:food_app/screens/edit_profile_page.dart';
+
 void main() async {
    WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
@@ -30,6 +32,7 @@ class MyApp extends StatelessWidget {
     textTheme: GoogleFonts.urbanistTextTheme(),
     primarySwatch: Colors.blue,
   ),
+ //  home: const EditProfilePage(), 
   initialRoute: "/", // You can set the initial route here if needed
   routes: {
     "/": (context) => StreamBuilder(

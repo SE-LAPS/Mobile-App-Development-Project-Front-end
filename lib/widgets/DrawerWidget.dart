@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:food_app/screens/welcome_screen.dart';
+import 'package:food_app/screens/profile_screen.dart';
 
 class DrawerWidget extends StatelessWidget {
   @override
@@ -7,21 +9,21 @@ class DrawerWidget extends StatelessWidget {
     return Drawer(
       child: ListView(
         children: [
-          DrawerHeader(
+          const DrawerHeader(
             padding: EdgeInsets.zero,
             child: UserAccountsDrawerHeader(
               decoration: BoxDecoration(
                 color: Colors.red,
               ),
               accountName: Text(
-                "TRS Rathnayaka",
+                "Dine Delish",
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
               ),
               accountEmail: Text(
-                "infoprogrammer@gmail.com",
+                "dinedelish@gmail.com",
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
@@ -32,7 +34,7 @@ class DrawerWidget extends StatelessWidget {
               ),
             ),
           ),
-          ListTile(
+          const ListTile(
             leading: Icon(
               CupertinoIcons.home,
               color: Colors.red,
@@ -46,19 +48,26 @@ class DrawerWidget extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               CupertinoIcons.person,
               color: Colors.red,
             ),
-            title: Text(
+            title: const Text(
               "My Profile",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => const ProfileScreen(),
+                ),
+              );
+            },
           ),
-          ListTile(
+          const ListTile(
             leading: Icon(
               CupertinoIcons.cart_fill,
               color: Colors.red,
@@ -71,7 +80,7 @@ class DrawerWidget extends StatelessWidget {
               ),
             ),
           ),
-          ListTile(
+          const ListTile(
             leading: Icon(
               CupertinoIcons.heart_fill,
               color: Colors.red,
@@ -84,7 +93,7 @@ class DrawerWidget extends StatelessWidget {
               ),
             ),
           ),
-          ListTile(
+          const ListTile(
             leading: Icon(
               CupertinoIcons.settings,
               color: Colors.red,
@@ -98,17 +107,24 @@ class DrawerWidget extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(
+            leading: const Icon(
               Icons.exit_to_app,
               color: Colors.red,
             ),
-            title: Text(
+            title: const Text(
               "Log Out",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => const WelcomeScreen(),
+                ),
+              );
+            },
           ),
         ],
       ),

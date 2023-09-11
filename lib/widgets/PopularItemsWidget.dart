@@ -6,12 +6,12 @@ class PopularItemsWidget extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 15, horizontal: 5),
+        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 5),
         child: Row(
           children: [
             for (int i = 0; i < 1; i++)
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 7),
+                padding: const EdgeInsets.symmetric(horizontal: 7),
                 child: Container(
                   width: 170,
                   height: 225,
@@ -23,11 +23,11 @@ class PopularItemsWidget extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.5),
                           spreadRadius: 3,
                           blurRadius: 10,
-                          offset: Offset(0, 3),
+                          offset: const Offset(0, 3),
                         )
                       ]),
                   child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 10),
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -42,23 +42,23 @@ class PopularItemsWidget extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Text(
+                        const Text(
                           "Fried Rice",
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        SizedBox(height: 4),
-                        Text(
+                        const SizedBox(height: 4),
+                        const Text(
                           "Taste Our Hot Burger",
                           style: TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        SizedBox(height: 12),
-                        Row(
+                        const SizedBox(height: 12),
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
@@ -82,7 +82,7 @@ class PopularItemsWidget extends StatelessWidget {
                 ),
               ),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 7),
+              padding: const EdgeInsets.symmetric(horizontal: 7),
               child: Container(
                 width: 170,
                 height: 225,
@@ -94,11 +94,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       )
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Column(
                     children: [
                       Container(
@@ -107,23 +107,23 @@ class PopularItemsWidget extends StatelessWidget {
                           height: 130,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Fried Rice",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 4),
-                      Text(
+                      const SizedBox(height: 4),
+                      const Text(
                         "Taste Our Hot Burger",
                         style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 12),
-                      Row(
+                      const SizedBox(height: 12),
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
@@ -147,7 +147,7 @@ class PopularItemsWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 7),
+              padding: const EdgeInsets.symmetric(horizontal: 7),
               child: Container(
                 width: 170,
                 height: 225,
@@ -159,11 +159,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       )
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Column(
                     children: [
                       Container(
@@ -172,23 +172,23 @@ class PopularItemsWidget extends StatelessWidget {
                           height: 130,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Fried Rice",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 4),
-                      Text(
+                      const SizedBox(height: 4),
+                      const Text(
                         "Taste Our Hot Burger",
                         style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 12),
-                      Row(
+                      const SizedBox(height: 12),
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
@@ -212,7 +212,7 @@ class PopularItemsWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 7),
+              padding: const EdgeInsets.symmetric(horizontal: 7),
               child: Container(
                 width: 170,
                 height: 225,
@@ -224,11 +224,11 @@ class PopularItemsWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.5),
                         spreadRadius: 3,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       )
                     ]),
                 child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
                   child: Column(
                     children: [
                       Container(
@@ -237,23 +237,23 @@ class PopularItemsWidget extends StatelessWidget {
                           height: 130,
                         ),
                       ),
-                      Text(
+                      const Text(
                         "Fried Rice",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 4),
-                      Text(
+                      const SizedBox(height: 4),
+                      const Text(
                         "Taste Our Hot Burger",
                         style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 12),
-                      Row(
+                      const SizedBox(height: 12),
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(

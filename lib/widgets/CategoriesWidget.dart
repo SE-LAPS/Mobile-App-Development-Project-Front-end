@@ -6,13 +6,13 @@ class CategoriesWidget extends StatelessWidget {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Padding(
-        padding: EdgeInsets.symmetric(vertical: 15, horizontal: 5),
+        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 5),
         child: Row(children: [
           for (int i = 0; i < 1; i++)
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 10),
+              padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Container(
-                padding: EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -21,7 +21,7 @@ class CategoriesWidget extends StatelessWidget {
                         color: Colors.grey.withOpacity(0.9),
                         spreadRadius: 2,
                         blurRadius: 10,
-                        offset: Offset(0, 3),
+                        offset: const Offset(0, 3),
                       )
                     ]),
                 child: Image.asset(
@@ -32,9 +32,9 @@ class CategoriesWidget extends StatelessWidget {
               ),
             ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Container(
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -43,7 +43,7 @@ class CategoriesWidget extends StatelessWidget {
                       color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 2,
                       blurRadius: 10,
-                      offset: Offset(0, 3),
+                      offset: const Offset(0, 3),
                     )
                   ]),
               child: Image.asset(
@@ -54,9 +54,9 @@ class CategoriesWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Container(
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -65,7 +65,7 @@ class CategoriesWidget extends StatelessWidget {
                       color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 2,
                       blurRadius: 10,
-                      offset: Offset(0, 3),
+                      offset: const Offset(0, 3),
                     )
                   ]),
               child: Image.asset(
@@ -76,9 +76,9 @@ class CategoriesWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Container(
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -87,7 +87,7 @@ class CategoriesWidget extends StatelessWidget {
                       color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 2,
                       blurRadius: 10,
-                      offset: Offset(0, 3),
+                      offset: const Offset(0, 3),
                     )
                   ]),
               child: Image.asset(
@@ -98,9 +98,9 @@ class CategoriesWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Container(
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -109,7 +109,7 @@ class CategoriesWidget extends StatelessWidget {
                       color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 2,
                       blurRadius: 10,
-                      offset: Offset(0, 3),
+                      offset: const Offset(0, 3),
                     )
                   ]),
               child: Image.asset(
@@ -120,9 +120,9 @@ class CategoriesWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Container(
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -131,7 +131,7 @@ class CategoriesWidget extends StatelessWidget {
                       color: Colors.grey.withOpacity(0.9),
                       spreadRadius: 2,
                       blurRadius: 10,
-                      offset: Offset(0, 3),
+                      offset: const Offset(0, 3),
                     )
                   ]),
               child: Image.asset(
