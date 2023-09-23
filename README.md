@@ -38,15 +38,19 @@ With a high secured payment gateway, all the users including students and lectur
 
 # Team Members
 * Lahiru Senavirathna
-  I am the team leader in Mad Geeks Team.
-User app(frontend app)
-	1. Create the Account part
-	2. Create the Add cart part
-	3. Create the Search part
-User app(backend app)
-	1. Create the Models part
-	2. Create the App main and add Firebase part
-	3. Create the Routing part
+   • Project Lead/ Frontend & Backend Developer
+* Thevindu Ransara
+   • UI/UX Designer/ Frontend & Backend Developer
+* Wasana Muthumali
+   • UI/UX Designer/ Frontend Developer
+* Prasitha Samaarachchi
+   • Frontend Developer
+* Oshadi Savidya
+   • Frontend Developer
+* Ishanki Nipunika
+   • Frontend Developer
+* Deshan Narayana
+   • Frontend Developer
 
 
 
