@@ -1,5 +1,9 @@
 # Mobile-App-Development-Project-Front-end 🔰📲👩‍🎓
 
+# Now Available in Youtube 😍
+<h3>https://www.youtube.com/watch?v=fwrgVinGr54&t=4s</h3>
+![mad geeks-12345678](https://github.com/SE-LAPS/Mobile-App-Development-Project-Front-end/assets/87580847/613139e5-1a7f-4acc-a0ca-85a579bbdf68)
+
 # Introduction 🌱
 Our focused solution for a problem in our university is “waiting que in the canteen”.
 We have 4 canteens in our university. All the students get lunch break at 12.00p.m. When we go for a canteen at that time, there is a huge line in the cashier to order the food. So, we come up with a solution for reduce the cashier que and increase the productive sales by introducing an online food ordering app. Our food ordering app have special features when we compared it with normal restaurant app. Only the people who have permission to enter the university premises can use the application.We also focus on how to minimize food wastage in our canteens. By launching this app, all the students, lecturers, staff and everyone inside the university will be able to select a meal without walking far and order online. If the university allows to add a delivery service, we also can add a delivery function to our app as well.
