@@ -38,18 +38,25 @@ With a high secured payment gateway, all the users including students and lectur
 
 # Team Members
 * Lahiru Senavirathna
+  
    • Project Lead/ Frontend & Backend Developer
 * Thevindu Ransara
+  
    • UI/UX Designer/ Frontend & Backend Developer
 * Wasana Muthumali
+  
    • UI/UX Designer/ Frontend Developer
 * Prasitha Samaarachchi
+  
    • Frontend Developer
 * Oshadi Savidya
+  
    • Frontend Developer
 * Ishanki Nipunika
+  
    • Frontend Developer
 * Deshan Narayana
+  
    • Frontend Developer
 
 
