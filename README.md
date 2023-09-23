@@ -7,27 +7,35 @@ With a high secured payment gateway, all the users including students and lectur
 
 # Proposed Solution
 Mobile App Development:
+
 •	The proposed solution is to create a dedicated mobile app that allows university students and others to order food from the canteens without wasting time in a que.
 
 User Authentication:
+
 •	To ensure that only university members can use the app, user authentication will be implemented using university email addresses or other secure methods.
 
 Online Ordering:
+
 •	Users will be able to place food orders online through the app, providing them with the convenience of ordering from anywhere on campus.
 
 Payment Options:
+
 •	The app will offer multiple payment options, including debit card payments and the ability to pay when the food is delivered, giving users flexibility and convenience.
 
 Real-time Menu Updates:
+
 •	Canteens will have the capability to add, update, or remove dishes from the menu in real-time through a secure admin panel. Users will receive notifications about these changes, ensuring they always have access to the latest menu information.
 
 Feedback and Suggestions:
+
 •	Users will have a dedicated section in the app to provide feedback and suggestions, creating a direct line of communication between customers and canteen management. This feedback can be used to improve the quality of service and menu offerings.
 
 Order Tracking:
+
 •	Users can track the status of their orders in real-time, reducing wait times and uncertainty.
 
 Promotions and Special Offers:
+
 •	Canteens can use the app to promote special offers, discounts, and events to attract more customers.
 
 <br><br>
