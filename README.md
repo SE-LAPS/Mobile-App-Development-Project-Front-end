@@ -40,6 +40,7 @@ With a high secured payment gateway, all the users including students and lectur
 The Dine Delish App is developed using the following technologies:
 
   • Frontend: Flutter
+  
   • Backend: Firebase
   
 # Team Members
