@@ -38,6 +38,14 @@ Promotions and Special Offers:
 
 •	Canteens can use the app to promote special offers, discounts, and events to attract more customers.
 
+# Benefits For Our University
+* Apps for ordering food online are simple to use and make it simple for customers to browse menus, choose dishes, and place orders.
+* By using this mobile application to place a food order, you can significantly reduce your waiting time.
+* In order to make sure customers are aware of the total cost before placing their orders, apps frequently display menu prices, discounts, special dishes, and total fees upfront.
+* Customers can choose the top-rated restaurants and foods by reading user-generated reviews and ratings.
+* Online food delivery services offer a variety of payment options, including cash and credit/debit cards, to accommodate different customer preferences.
+* Feedback from customers on their orders can help restaurants improve their offerings. They can also contact customer service for support with any problems.
+  
 <br><br>
 ![F-1](https://github.com/SE-LAPS/Mobile-App-Development-Project-Front-end/assets/87580847/a819aa44-8885-4e87-91b8-603852c1418b)
 <br>
