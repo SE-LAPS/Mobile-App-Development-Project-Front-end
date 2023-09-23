@@ -39,30 +39,30 @@ With a high secured payment gateway, all the users including students and lectur
 # Technology Used 
 The Dine Delish App is developed using the following technologies:
 
-    **Frontend:** Flutter
+    * Frontend: Flutter
   
-    **Backend:** Firebase
+    * Backend: Firebase
   
 # Team Members
-**Lahiru Senavirathna**👨‍🎓 
+* Lahiru Senavirathna 👨‍🎓 
   
    • Project Lead/ Frontend & Backend Developer
-**Thevindu Ransara** 👨‍🎓
+* Thevindu Ransara 👨‍🎓
   
    • UI/UX Designer/ Frontend & Backend Developer
-**Wasana Muthumali** 👨‍🎓
+* Wasana Muthumali 👨‍🎓
   
    • UI/UX Designer/ Frontend Developer
-**Prasitha Samaarachchi** 👨‍🎓
+* Prasitha Samaarachchi 👨‍🎓
   
    • Frontend Developer
-**Oshadi Savidya** 👨‍🎓
+* Oshadi Savidya 👨‍🎓
   
    • Frontend Developer
-**Ishanki Nipunika** 👨‍🎓
+* Ishanki Nipunika 👨‍🎓
   
    • Frontend Developer
-**Deshan Narayana** 👨‍🎓
+* Deshan Narayana 👨‍🎓
   
    • Frontend Developer
 
