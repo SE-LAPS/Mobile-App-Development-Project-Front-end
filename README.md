@@ -6,23 +6,23 @@ We have 4 canteens in our university. All the students get lunch break at 12.00p
 With a high secured payment gateway, all the users including students and lecturers can easily place through the app and pick their meals from canteens without wasting a second in a canteen que. 
 
 # Features
-* User Authentication: To ensure that only university members can use the app, user authentication will be implemented using university email addresses or other 
+**User Authentication:** To ensure that only university members can use the app, user authentication will be implemented using university email addresses or other 
   secure methods.
 
-* Online Food Ordering: Users will be able to place food orders online through the app, providing them with the convenience of ordering from anywhere on campus.
+**Online Food Ordering:** Users will be able to place food orders online through the app, providing them with the convenience of ordering from anywhere on campus.
 
-* Payment Options: The app will offer multiple payment options, including debit card payments and the ability to pay when the food is delivered, giving users 
+**Payment Options:** The app will offer multiple payment options, including debit card payments and the ability to pay when the food is delivered, giving users 
   flexibility and convenience.
 
-* Real-time Menu Updates: Canteens will have the capability to add, update, or remove dishes from the menu in real-time through a secure admin panel. Users will 
+**Real-time Menu Updates:** Canteens will have the capability to add, update, or remove dishes from the menu in real-time through a secure admin panel. Users will 
   receive notifications about these changes, ensuring they always have access to the latest menu information.
 
-* Feedback and Suggestions: Users will have a dedicated section in the app to provide feedback and suggestions, creating a direct line of communication between 
+**Feedback and Suggestions:** Users will have a dedicated section in the app to provide feedback and suggestions, creating a direct line of communication between 
   customers and canteen management. This feedback can be used to improve the quality of service and menu offerings.
 
-* Order Tracking: Users can track the status of their orders in real-time, reducing wait times and uncertainty.
+**Order Tracking:** Users can track the status of their orders in real-time, reducing wait times and uncertainty.
 
-* Promotions and Special Offers: Canteens can use the app to promote special offers, discounts, and events to attract more customers.
+**Promotions and Special Offers:** Canteens can use the app to promote special offers, discounts, and events to attract more customers.
 
 # Benefits For University Students
 * Apps for ordering food online are simple to use and make it simple for customers to browse menus, choose dishes, and place orders.
@@ -39,30 +39,30 @@ With a high secured payment gateway, all the users including students and lectur
 # Technology Used 
 The Dine Delish App is developed using the following technologies:
 
-  **Frontend:** Flutter
+    **Frontend:** Flutter
   
-  **Backend:** Firebase
+    **Backend:** Firebase
   
 # Team Members
-* Lahiru Senavirathna 👨‍🎓
+**Lahiru Senavirathna**👨‍🎓 
   
    • Project Lead/ Frontend & Backend Developer
-* Thevindu Ransara 👨‍🎓
+**Thevindu Ransara** 👨‍🎓
   
    • UI/UX Designer/ Frontend & Backend Developer
-* Wasana Muthumali 👨‍🎓
+**Wasana Muthumali** 👨‍🎓
   
    • UI/UX Designer/ Frontend Developer
-* Prasitha Samaarachchi 👨‍🎓
+**Prasitha Samaarachchi** 👨‍🎓
   
    • Frontend Developer
-* Oshadi Savidya 👨‍🎓
+**Oshadi Savidya** 👨‍🎓
   
    • Frontend Developer
-* Ishanki Nipunika 👨‍🎓
+**Ishanki Nipunika** 👨‍🎓
   
    • Frontend Developer
-* Deshan Narayana 👨‍🎓
+**Deshan Narayana** 👨‍🎓
   
    • Frontend Developer
 
