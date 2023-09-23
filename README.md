@@ -36,6 +36,11 @@ With a high secured payment gateway, all the users including students and lectur
 # Activity Diagram
 ![activity drawio](https://github.com/SE-LAPS/Mobile-App-Development-Project-Front-end/assets/97075043/43b54d2c-dca5-4391-9593-b45dfa0baca4)
 
+# Technology Used 
+The Dine Delish App is developed using the following technologies:
+  • Frontend: Flutter
+  • Backend: Firebase
+  
 # Team Members
 * Lahiru Senavirathna 👨‍🎓
   
@@ -58,6 +63,7 @@ With a high secured payment gateway, all the users including students and lectur
 * Deshan Narayana 👨‍🎓
   
    • Frontend Developer
+
 
 
 
