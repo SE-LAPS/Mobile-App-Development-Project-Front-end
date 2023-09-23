@@ -37,25 +37,25 @@ With a high secured payment gateway, all the users including students and lectur
 ![activity drawio](https://github.com/SE-LAPS/Mobile-App-Development-Project-Front-end/assets/97075043/43b54d2c-dca5-4391-9593-b45dfa0baca4)
 
 # Team Members
-* Lahiru Senavirathna
+* Lahiru Senavirathna 👨‍🎓
   
    • Project Lead/ Frontend & Backend Developer
-* Thevindu Ransara
+* Thevindu Ransara 👨‍🎓
   
    • UI/UX Designer/ Frontend & Backend Developer
-* Wasana Muthumali
+* Wasana Muthumali 👨‍🎓
   
    • UI/UX Designer/ Frontend Developer
-* Prasitha Samaarachchi
+* Prasitha Samaarachchi 👨‍🎓
   
    • Frontend Developer
-* Oshadi Savidya
+* Oshadi Savidya 👨‍🎓
   
    • Frontend Developer
-* Ishanki Nipunika
+* Ishanki Nipunika 👨‍🎓
   
    • Frontend Developer
-* Deshan Narayana
+* Deshan Narayana 👨‍🎓
   
    • Frontend Developer
 
