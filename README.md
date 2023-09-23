@@ -39,9 +39,9 @@ With a high secured payment gateway, all the users including students and lectur
 # Technology Used 
 The Dine Delish App is developed using the following technologies:
 
-    * Frontend: Flutter
+   * Frontend: Flutter
   
-    * Backend: Firebase
+   * Backend: Firebase
   
 # Team Members
 * Lahiru Senavirathna 👨‍🎓 
@@ -66,8 +66,10 @@ The Dine Delish App is developed using the following technologies:
   
    • Frontend Developer
 
+# Conclution
+Our application "NFCourt" enables a platform for students, lecturers and all the other NSBM users to order their meals without wasting time in a line."NFCourt" has a secured payment gateway so all the users can add their bank account details without any doubts. By launching the app, we hope to increase the sales of canteens and reduce the waiting que, as one second is important to academic students and lecturers to more than waiting in a food line. In first launch we will introduce features including an ai bot, in the meantime we will add more advanced features with the feedbacks and suggestions that receives to the app from users.
 
-
+Thank you for your interest in the Dine Delish Mobile App.
 
 
 
