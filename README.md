@@ -49,7 +49,7 @@ The Dine Delish App is developed using the following technologies:
    * Backend: Firebase
   
 # Team Members 👯
- 👨‍🎓**Lahiru Senavirathna** ([SE-LAPS](https://github.com/SE-LAPS))
+👨‍🎓**Lahiru Senavirathna** ([SE-LAPS](https://github.com/SE-LAPS))
  
      • Project Lead/ Frontend & Backend Developer
 👨‍🎓**Thevindu Ransara** ([trsrathnayaka](https://github.com/trsrathnayaka))
