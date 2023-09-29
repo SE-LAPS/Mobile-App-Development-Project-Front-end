@@ -54,22 +54,22 @@ The Dine Delish App is developed using the following technologies:
      • Project Lead/ Frontend & Backend Developer
 👨‍🎓**Thevindu Ransara** ([trsrathnayaka](https://github.com/trsrathnayaka))
   
-   • UI/UX Designer/ Frontend & Backend Developer
-* Wasana Muthumali 👨‍🎓
+     • UI/UX Designer/ Frontend & Backend Developer
+👨‍🎓**Wasana Muthumali** ([muthumaliperera](https://github.com/muthumaliperera))
   
-   • UI/UX Designer/ Frontend Developer
-* Prasitha Samaarachchi 👨‍🎓
+     • UI/UX Designer/ Frontend Developer
+👨‍🎓**Prasitha Samaarachchi** ([Prasitha7](https://github.com/Prasitha7))
   
-   • Frontend Developer
-* Oshadi Savidya 👨‍🎓
+     • Frontend Developer
+👨‍🎓**Oshadi Savidya** ([OshadiSavidya](https://github.com/OshadiSavidya))
   
-   • Frontend Developer
-* Ishanki Nipunika 👨‍🎓
+     • Frontend Developer[
+👨‍🎓**Ishanki Nipunika** ([Ishanki88](https://github.com/Ishanki88))
   
-   • Frontend Developer
-* Deshan Narayana 👨‍🎓
+     • Frontend Developer
+👨‍🎓**Deshan Narayana** ([deshanbsn](https://github.com/deshanbsn))
   
-   • Frontend Developer
+     • Frontend Developer
 
 # Conclution 💻
 Our application "NFCourt" enables a platform for students, lecturers and all the other NSBM users to order their meals without wasting time in a line."NFCourt" has a secured payment gateway so all the users can add their bank account details without any doubts. By launching the app, we hope to increase the sales of canteens and reduce the waiting que, as one second is important to academic students and lecturers to more than waiting in a food line. In first launch we will introduce features including an ai bot, in the meantime we will add more advanced features with the feedbacks and suggestions that receives to the app from users.
