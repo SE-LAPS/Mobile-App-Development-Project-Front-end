@@ -51,7 +51,7 @@ class _NotificationScreenConsumerState
                     style: TextStyle(color: blackColorShade1, fontSize: 20),
                   ),
                   trailing: Text(
-                    "clear all",
+                    "Clear all",
                     style: TextStyle(color: blackColorShade1, fontSize: 15),
                   ),
                 ),
@@ -96,7 +96,7 @@ class _NotificationScreenConsumerState
                                     color: blackColorShade1, fontSize: 20),
                               ),
                               subtitle: const Text(
-                                "You set reminder for 22 september 2023",
+                                "You set reminder for 15 Oct 2023",
                                 style: TextStyle(
                                     color: blackColorShade1, fontSize: 12),
                               ),
@@ -107,6 +107,59 @@ class _NotificationScreenConsumerState
                     ),
                   ),
                 ),
+                  // Ice-Cream
+              Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: blackColorShade2,
+                  ),
+                  child: Column(
+                    children: [
+                      Stack(
+                        children: [
+                          Container(
+                            width: double.infinity,
+                            alignment: Alignment.topRight,
+                            padding: const EdgeInsets.all(10.0),
+                            child: const Text(
+                              "18 min",
+                              style:
+                                  TextStyle(color: blackColorShade1, fontSize: 10),
+                            ),
+                          ),
+                          ListTile(
+                            minLeadingWidth: 50,
+                            leading: IconButton(
+                              padding: const EdgeInsets.all(0.0),
+                              onPressed: () {},
+                              icon: const SizedBox(
+                                height: 45,
+                                width: 45,
+                                child: Icon(
+                                  Icons.circle_notifications,
+                                  size: 45,
+                                ),
+                              ),
+                            ),
+                            title: const Text(
+                              "Ice-Cream",
+                              style:
+                                  TextStyle(color: blackColorShade1, fontSize: 20),
+                            ),
+                            subtitle: const Text(
+                              "You set a reminder for 15 Oct 2023",
+                              style:
+                                  TextStyle(color: blackColorShade1, fontSize: 12),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
                 Padding(
                   padding: const EdgeInsets.only(bottom: 10),
                   child: Container(
@@ -148,7 +201,7 @@ class _NotificationScreenConsumerState
                                     color: blackColorShade1, fontSize: 20),
                               ),
                               subtitle: const Text(
-                                "You set reminder for 22 september 2023",
+                                "You set reminder for 15 Oct 2023",
                                 style: TextStyle(
                                     color: blackColorShade1, fontSize: 12),
                               ),
@@ -210,7 +263,7 @@ class _NotificationScreenConsumerState
                                     color: blackColorShade1, fontSize: 20),
                               ),
                               subtitle: const Text(
-                                "You set reminder for 21 september 2023",
+                                "You set reminder for 14 Oct 2023",
                                 style: TextStyle(
                                     color: blackColorShade1, fontSize: 12),
                               ),
@@ -221,6 +274,59 @@ class _NotificationScreenConsumerState
                     ),
                   ),
                 ),
+                  // Ice-Cream
+              Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: blackColorShade2,
+                  ),
+                  child: Column(
+                    children: [
+                      Stack(
+                        children: [
+                          Container(
+                            width: double.infinity,
+                            alignment: Alignment.topRight,
+                            padding: const EdgeInsets.all(10.0),
+                            child: const Text(
+                              "1 day & 18 min",
+                              style:
+                                  TextStyle(color: blackColorShade1, fontSize: 10),
+                            ),
+                          ),
+                          ListTile(
+                            minLeadingWidth: 50,
+                            leading: IconButton(
+                              padding: const EdgeInsets.all(0.0),
+                              onPressed: () {},
+                              icon: const SizedBox(
+                                height: 45,
+                                width: 45,
+                                child: Icon(
+                                  Icons.circle_notifications,
+                                  size: 45,
+                                ),
+                              ),
+                            ),
+                            title: const Text(
+                              "Foods",
+                              style:
+                                  TextStyle(color: blackColorShade1, fontSize: 20),
+                            ),
+                            subtitle: const Text(
+                              "You set a reminder for 14 Oct 2023",
+                              style:
+                                  TextStyle(color: blackColorShade1, fontSize: 12),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
                 Padding(
                   padding: const EdgeInsets.only(bottom: 10),
                   child: Container(
@@ -257,12 +363,12 @@ class _NotificationScreenConsumerState
                                 ),
                               ),
                               title: const Text(
-                                "Fresh Juices",
+                                "Fresh Juice",
                                 style: TextStyle(
                                     color: blackColorShade1, fontSize: 20),
                               ),
                               subtitle: const Text(
-                                "you set reminder for you appointment",
+                                "You set reminder for 14 Oct 2023",
                                 style: TextStyle(
                                     color: blackColorShade1, fontSize: 12),
                               ),
